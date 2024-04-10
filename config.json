@@ -1,0 +1,20 @@
+{
+    "seed": 42,
+    "epochs": 1000,
+    "data": {
+      "window": 120,
+      "train_size": 0.7,
+      "valid_size": 0.2,
+      "batch_size": 32
+    },
+    "model": {
+      "input_size": 6,
+      "hidden_size": 64,
+      "output_size": 1,
+      "patience": 10,
+      "dropout_rate": 0.2
+    },
+    "optim": {
+      "lr": 0.001
+    }
+  }
