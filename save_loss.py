@@ -13,10 +13,11 @@ def save_loss(train_loss, valid_loss, save_path="log"):
     plt.ylabel('loss')
     plt.xlabel("epoch")
     plt.legend()
-    plt.show()
+    
 
     file_nm = os.path.join(save_path, f"{dt.datetime.now().strftime('%Y%m%d-%H%M%S')}_loss.png")
     plt.savefig(file_nm)
     plt.close()
+    plt.show()
 
 
